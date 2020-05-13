@@ -37,6 +37,7 @@ func swap(a, b string) (string, string) {
 func anonymous() func() int {
 	i := 1
 	fmt.Println(i)
+	//匿名函数
 	r := func() int {
 		return 5
 	}
