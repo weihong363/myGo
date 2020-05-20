@@ -42,3 +42,13 @@ type Object struct {
 func (o Object) String() string {
 	return fmt.Sprintf("name:%v   value:%v", o.Name, o.Value)
 }
+
+//嵌入（嵌套）类型，go没有继承，通过组合的方式，来复用已有的代码
+//初始化时，先初始化内部再初始化外部
+//如果内部类型实现了某个接口，外部类型也会被认为实现了该接口
+
+type Combine struct {
+	Key string
+	//组合了Object结构体
+	Object
+}
