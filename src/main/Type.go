@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"myGo/src/main/testmodule"
+)
 
 func main() {
 	//类型断言,提供了访问接口值底层具体值的方式。
@@ -21,6 +24,10 @@ func main() {
 	//可以通过实现String()方法来自定义输出的值（有点像java重写toString）
 	o := Object{"张三", "eeeee"}
 	fmt.Println(o)
+
+	//使用引入的包
+	t := testmodule.Test{}
+	fmt.Println(t)
 }
 
 func do(i interface{}) {

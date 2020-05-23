@@ -76,7 +76,7 @@ func main() {
 	//为 nil 接口调用方法会产生运行时错误，因为接口的元组内并未包含能够指明该调用哪个 具体 方法的类型。
 	//i2.M()
 
-	var e Empty = "aaa"
+	var e Empty = "testmodule"
 	fmt.Println(e)
 	var e1 Empty = 3
 	fmt.Println(e1)

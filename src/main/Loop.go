@@ -7,7 +7,7 @@ func main() {
 		fmt.Println(i)
 	}
 
-	collection := []string{"aaa", "bbb", "ccc"}
+	collection := []string{"testmodule", "bbb", "ccc"}
 	for i2, i3 := range collection {
 		//i2标识数组中的下标，i3标识数组中的值
 		fmt.Println(i2, i3)
