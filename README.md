@@ -1,8 +1,8 @@
 #### 记录GO的学习历程
 
-###### 2020.07.01
+###### 2020.07.04
 
-golang圣经译文学习记录xmind文档（https://books.studygolang.com/gopl-zh/index.html），持续更新中。。。
+golang圣经译文学习记录xmind文档（https://books.studygolang.com/gopl-zh/index.html）
 
 ###### 2020.06.18
 
